@@ -1,0 +1,75 @@
+{
+    "name": "node-red",
+    "version": "1.0.6",
+    "description": "A visual tool for wiring the Internet of Things",
+    "homepage": "http://nodered.org",
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/node-red/node-red-docker.git"
+    },
+    "main": "node_modules/node-red/red/red.js",
+    "scripts": {
+        "start": "node $NODE_OPTIONS node_modules/node-red/red.js $FLOWS"
+    },
+    "contributors": [
+        {
+            "name": "Dave Conway-Jones"
+        },
+        {
+            "name": "Nick O'Leary"
+        },
+        {
+            "name": "James Thomas"
+        },
+        {
+            "name": "Marcel Trapman"
+        }
+    ],
+    "dependencies": {
+        "node-red": "1.0.6",
+        "node-red-dashboard": "*",
+        "node-red-node-base64": "*",
+        "node-red-node-msgpack": "*",
+        "node-red-node-suncalc": "*",
+        "node-red-node-random": "*",
+        "node-red-node-snmp": "*",
+        "node-red-node-wol": "*",
+        "node-red-contrib-better-sonos": "*",
+        "node-red-contrib-bigtimer": "*",
+        "node-red-contrib-buienradar": "*",
+        "node-red-contrib-combine": "*",
+        "node-red-contrib-credentials": "*",
+        "node-red-contrib-docker-stream": "*",
+        "node-red-contrib-home-assistant-websocket": "*",
+        "node-red-contrib-huemagic": "*",
+        "node-red-contrib-influxdb": "*",
+        "node-red-contrib-key-value-store": "*",
+        "node-red-contrib-mongo-client": "*",
+        "node-red-contrib-node-hue": "*",
+        "node-red-contrib-pi-hole": "*",
+        "node-red-node-ping": "*",
+        "node-red-contrib-plex": "*",
+        "node-red-contrib-python-function": "*",
+        "node-red-contrib-re-postgres": "*",
+        "node-red-contrib-rsync": "*",
+        "node-red-contrib-slack": "*",
+        "node-red-contrib-startup-trigger": "*",
+        "node-red-contrib-stoptimer": "*",
+        "node-red-contrib-tado-client": "*",
+        "node-red-contrib-tahoma": "*",
+        "node-red-contrib-tcp-client": "*",
+        "node-red-contrib-tcp-server": "*",
+        "node-red-contrib-time-range-switch": "*",
+        "node-red-contrib-timecheck": "*",
+        "node-red-contrib-timerswitch": "*",
+        "node-red-contrib-traffic": "*",
+        "node-red-contrib-uibuilder": "*",
+        "node-red-contrib-unifi": "*",
+        "node-red-contrib-uuid": "*",
+        "node-red-contrib-web-watch": "*"
+    },
+    "engines": {
+        "node": ">=10"
+    }
+}
