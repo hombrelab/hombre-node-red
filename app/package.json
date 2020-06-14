@@ -35,7 +35,7 @@
         "node-red-node-random": "*",
         "node-red-node-snmp": "*",
         "node-red-node-wol": "*",
-        "node-red-contrib-amqp": "*",
+        "node-red-contrib-amqp-ack": "*",
         "node-red-contrib-better-sonos": "*",
         "node-red-contrib-bigtimer": "*",
         "node-red-contrib-buienradar": "*",
