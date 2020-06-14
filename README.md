@@ -15,6 +15,7 @@ Installed dependencies:
 - [node-red-node-random](https://flows.nodered.org/node/node-red-node-random)    
 - [node-red-node-snmp](https://flows.nodered.org/node/node-red-node-snmp)  
 - [node-red-node-wol](https://flows.nodered.org/node/node-red-node-wol)    
+- [node-red-contrib-amqp-ack](https://flows.nodered.org/node/node-red-contrib-amqp-ack)
 - [node-red-contrib-better-sonos](https://flows.nodered.org/node/node-red-contrib-better-sonos)  
 - [node-red-contrib-bigtimer](https://flows.nodered.org/node/node-red-contrib-bigtimer)  
 - [node-red-contrib-buienradar](https://flows.nodered.org/node/node-red-contrib-buienradar)  
