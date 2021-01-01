@@ -12,7 +12,8 @@ LABEL maintainer="Hombrelab <me@hombrelab.com>"
 LABEL inspiration="getting things done my way"
 
 RUN apk add --no-cache \
-    python3
+    python3 \
+    openssh
 
 # Home directory for Node-RED application source code.
 RUN mkdir -p /usr/src/node-red

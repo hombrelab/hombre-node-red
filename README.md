@@ -1,7 +1,7 @@
 # hombre-node-red
 ![Docker Pulls](https://img.shields.io/docker/pulls/hombrelab/hombre-node-red) ![Docker Image Version (latest by date)](https://img.shields.io/docker/v/hombrelab/hombre-node-red) ![GitHub commit activity](https://img.shields.io/github/last-commit/hombrelab/hombre-node-red)
 
-The [hombre-node-red](https://hub.docker.com/repository/docker/hombrelab/hombre-node-red) image is based on the [hombre-node](https://hub.docker.com/repository/docker/hombrelab/hombre-node) image and [Node-RED v1.0.6](https://nodered.org/).  
+The [hombre-node-red](https://hub.docker.com/repository/docker/hombrelab/hombre-node-red) image is based on the [hombre-node](https://hub.docker.com/repository/docker/hombrelab/hombre-node) image and [Node-RED v1.2.6](https://nodered.org/).  
 It is a customized Docker image for and by [@Hombrelab](me@hombrelab.com).
 
 You can read more about Node-RED [nodered.org](https://nodered.org/) and on [GitHub](https://github.com/node-red).
@@ -36,6 +36,7 @@ Installed dependencies:
 - [node-red-contrib-rsync](https://flows.nodered.org/node/node-red-contrib-rsync)
 - [node-red-contrib-slack](https://flows.nodered.org/node/node-red-contrib-slack)  
 - [node-red-contrib-startup-trigger](https://flows.nodered.org/node/node-red-contrib-startup-trigger)  
+- [node-red-contrib-ssh](https://flows.nodered.org/node/node-red-contrib-ssh)  
 - [node-red-contrib-stoptimer](https://flows.nodered.org/node/node-red-contrib-stoptimer)  
 - [node-red-contrib-tado-client](https://flows.nodered.org/node/node-red-contrib-tado-client)  
 - [node-red-contrib-tahoma](https://flows.nodered.org/node/node-red-contrib-tahoma)

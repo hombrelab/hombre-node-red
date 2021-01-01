@@ -1,6 +1,6 @@
 {
     "name": "node-red",
-    "version": "1.0.6",
+    "version": "1.2.6",
     "description": "A visual tool for wiring the Internet of Things",
     "homepage": "http://nodered.org",
     "license": "Apache-2.0",
@@ -27,7 +27,7 @@
         }
     ],
     "dependencies": {
-        "node-red": "1.0.6",
+        "node-red": "1.2.6",
         "node-red-dashboard": "*",
         "node-red-node-base64": "*",
         "node-red-node-msgpack": "*",
@@ -55,6 +55,7 @@
         "node-red-contrib-re-postgres": "*",
         "node-red-contrib-rsync": "*",
         "node-red-contrib-slack": "*",
+        "node-red-contrib-ssh": "*",
         "node-red-contrib-startup-trigger": "*",
         "node-red-contrib-stoptimer": "*",
         "node-red-contrib-tado-client": "*",
